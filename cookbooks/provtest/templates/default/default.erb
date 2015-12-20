@@ -1,0 +1,13 @@
+upstream backend {
+   
+    <% node['provtest']['appnodes'].each do |node| %>
+		server <%= node %>:8484;
+	<% end %>
+  	
+}
+server {
+    location / {
+        proxy_pass http://backend;
+    }
+}
+

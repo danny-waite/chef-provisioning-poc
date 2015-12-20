@@ -1,0 +1,1 @@
+default['provtest']['appnodes'] = ["localhost"] # holds the initial list of app nodes for testing

@@ -1,0 +1,10 @@
+name 'provtest'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures provtest'
+long_description 'Installs/Configures provtest'
+version '0.1.0'
+
+depends 'apt'
+depends 'golang'
